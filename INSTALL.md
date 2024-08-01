@@ -112,3 +112,10 @@ sudo timedatectl set-timezone Asia/Kolkata
 sudo timedatectl set-ntp true
 timedatectl
 ```
+
+#Install Python
+```
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.12-full
+```
